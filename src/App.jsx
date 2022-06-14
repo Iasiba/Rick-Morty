@@ -28,12 +28,9 @@ function App() {
 
   const numberRandom = Math.ceil(Math.random() * 126)
   const [URL, setURL] = useState(`https://rickandmortyapi.com/api/location/${numberRandom}`)
-  
   //const URL = `https://rickandmortyapi.com/api/location/${numberRandom}`
   //let data = UseData(URL)
   //let Data=data[0]
-
-  
   let {Data} = UseData(URL)
  
   console.log(Data)  
