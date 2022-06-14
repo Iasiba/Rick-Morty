@@ -39,7 +39,7 @@ function App() {
   console.log(Data)  
 
   const style = {
-    backgroundImage: "url({i1})"
+    backgroundImage: `url(${i1})`
   }
   const Numberimg = Math.floor(Math.random() * 16)
   return (

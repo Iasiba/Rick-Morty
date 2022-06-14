@@ -7,7 +7,7 @@ const UseData = (URL) => {
         axios.get(URL)
         .then(res=>setData(res.data))
         .catch(err=>console.log(err))
-      }, [])
+      }, [URL])
   return {Data}
 }
 
